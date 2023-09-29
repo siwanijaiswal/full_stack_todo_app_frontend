@@ -39,7 +39,7 @@ function App() {
             {isUpdating ? "Update" : "Add"}</div>
 
           <input type="text"
-            placeholder="Search..."
+            placeholder="Search Todos here..."
             onChange={(e) => searchInTodo(e.target.value, setToDo)}
           />
         </div>
